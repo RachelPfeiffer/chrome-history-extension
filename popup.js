@@ -42,7 +42,7 @@ csvArray.forEach(function(rowArray){
   var encodedUri = encodeURI(csvContent);
   const historyButton = document.querySelector('.getHistory');
   const link = document.createElement("a");
-  link.innerText = '1) Download history';
+  link.innerText = 'Download history';
   link.setAttribute("href", encodedUri);
   link.setAttribute("download", "my_data.csv");
   historyButton.appendChild(link);

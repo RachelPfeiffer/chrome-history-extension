@@ -16,10 +16,10 @@
         ],
         "persistent" : false
     },
-    "content_scripts": [
+    "content_scripts" : [
    {
-     "matches": ["www.aish.com"],
-     "run_at": "document_idle",
+     "matches" : ["https://*/*.com"],
+     "run_at" : "document_idle",
      "all_frames" : false,
 
      "js": ["popup.js"],
